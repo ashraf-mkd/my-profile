@@ -1,0 +1,114 @@
+body {
+  background: #EEEEEE;
+  color: #425466;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Cairo', sans-serif;
+}
+
+h1 {
+  color: #2F86A6;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: normal, serif;
+}
+
+h2 {
+  color: #6E3CBC;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color:#00A19D;
+}
+/* a:hover {
+  color: #42C2FF;
+} */
+/* a:visited{
+  color: #6B389F;
+} */
+/* a:active{
+  color: black;
+} */
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background: #FBF8F1;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 10px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.btn-blue:hover {
+  background-color: #2D4263;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.list-inline i {
+  font-size: 25px;
+  color: rgb(200,200,200);
+}
+
+.list-inline i:hover {
+  color: #2D4263;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
